@@ -1,0 +1,42 @@
+.prevserc{
+    display: block;
+    h2{
+        color: var(--txt-light);
+        margin-bottom: 1.5em;
+        padding: 4px;
+
+    }
+}
+.search{
+    .search-item{
+        background: var(--txt-light);
+        display: inline-block;
+        padding: 
+        .5em 1em;
+        margin: 0 .75em .5em 0;
+        color: azure;
+        border-radius: 30px;
+        opacity: 0;
+        transform: translateX(100%);
+        box-shadow: 0 3px 6px rebeccapurple;
+        animation: getAnimationDuration(.5s) slide  forwards;
+
+    }
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: var(--txt-light);
+    height: 40px;
+    float:right;
+    padding: 50px;
+    border-radius: 16px;
+    input{
+        padding: 12px;
+        border: none;
+        background: darkgray;
+    }
+    button{
+        padding: 12px;
+    }
+}

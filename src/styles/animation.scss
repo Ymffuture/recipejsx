@@ -1,0 +1,62 @@
+@keyframes moveLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes moveRight {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes popout {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes slide {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes go {
+  0% {
+    transform: scaleX(0.9);
+  }
+  100% {
+    transform: scaleX(0.8);
+  }
+}
+@keyframes roll {
+  0%{
+    transform: rotateZ(0deg)
+  }
+  25%{
+    transform: rotateZ(90deg)
+  }
+  50%{
+    transform: rotateZ(180deg)
+  }
+  75%{
+    transform: rotateZ(270deg)
+  }
+  100%{
+    transform: rotateZ(360deg)
+  }
+}
