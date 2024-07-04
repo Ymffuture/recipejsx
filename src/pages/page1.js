@@ -1,5 +1,6 @@
 import React from 'react';
 import './page1.scss';
+import '../styles/index.main.scss'
 
 export default function Page1() {
   const ingredients = [
@@ -30,7 +31,10 @@ export default function Page1() {
   ];
 
   return (
-    <div className="bread-page">
+  
+    <div className="bread-page container side-g">
+        <hr></hr>
+        <hr></hr>
       <h1>Basic Muffin Recipe for Dozens of Muffin Options</h1>
       <p>
         Welcome to our bread section! Here you can find all kinds of freshly baked bread, made with the finest ingredients. Our bread is baked daily to ensure the best quality and taste. Whether you prefer whole grain, sourdough, or a classic baguette, we have something for everyone.
@@ -49,7 +53,7 @@ export default function Page1() {
         </ul>
       </div>
 
-      <div>
+      <div className='side-g'>
         <h1>Steps to Make It</h1>
         <ol className="recipe-steps">
           {steps.map((step, index) => (

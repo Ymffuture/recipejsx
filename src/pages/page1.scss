@@ -1,8 +1,12 @@
 .bread-page {
     text-align: center;
-    padding: 30px;
+    padding: 10px 40px !important;
     color: var(--bg-dark);
-    margin-top: 40px;
+    margin-top: 40px !important;
+    width: 150% !important;
+    
+
+   
   }
   
   .bread-page h1 {
@@ -66,4 +70,13 @@
   .bread-page ol li {
     margin-bottom: 10px;
   }
+  .side-g{
+
+    display: grid;
+    padding: 20px;
+    background: #d1d1d1;
+    width: 200%;
+    border-radius: 16px;
   
+  }
+ 
