@@ -1,7 +1,8 @@
 .bread-page {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     color: var(--bg-dark);
+    margin-top: 40px;
   }
   
   .bread-page h1 {
@@ -21,5 +22,48 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bread-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .bread-page h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .bread-page p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .bread-page img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .bread-page h1 + div {
+    margin-top: 20px;
+  }
+  
+  .bread-page ul,
+  .bread-page ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .bread-page ul li,
+  .bread-page ol li {
+    margin-bottom: 10px;
   }
   

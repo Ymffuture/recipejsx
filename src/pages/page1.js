@@ -15,6 +15,20 @@ export default function Page1() {
     { amount: "4 tablespoons", weight: "2 ounces", item: "unsalted butter" }
   ];
 
+  const steps = [
+    "Gather the ingredients. Preheat your oven to 400 F.",
+    "Combine the flour, baking powder, cinnamon, nutmeg, and salt.",
+    "Heat the butter in the microwave, in a microwave-safe bowl, for about a minute, until it's thoroughly melted. Set it aside at room temperature to cool, but don't let it solidify again.",
+    "Beat the eggs in a separate bowl and then add the sugar, milk, and vanilla.",
+    "Thoroughly grease and flour a 12-cup muffin pan (or use paper muffin liners).",
+    "Ensure that the melted butter is warm, but not hot. Pour a tiny bit of the butter into the egg-vanilla-milk mixture and stir it in. Repeat a few more times, adding a slightly larger amount of the liquid butter each time until it's all incorporated.",
+    "Now add the liquid ingredients to the dry ones and mix just until the dry ingredients are barely incorporated. Don't mix too long—10 to 15 seconds at the most! The batter will be visibly lumpy, and you may see pockets of dry flour, but that's okay. Overmixing the batter will cause your muffins to be rubbery.",
+    "Let the batter rest for 10 to 15 minutes, to allow the glutens in the flour to relax, and some of those pockets of dry flour to dissolve.",
+    "Gently pour the batter into the prepared muffin pan and bake immediately.",
+    "Bake 20 minutes or until a toothpick inserted into the center of a muffin comes out clean.",
+    "Serve and enjoy."
+  ];
+
   return (
     <div className="bread-page">
       <h1>Basic Muffin Recipe for Dozens of Muffin Options</h1>
@@ -34,7 +48,15 @@ export default function Page1() {
           ))}
         </ul>
       </div>
+
+      <div>
+        <h1>Steps to Make It</h1>
+        <ol className="recipe-steps">
+          {steps.map((step, index) => (
+            <li key={index}>{step}</li>
+          ))}
+        </ol>
+      </div>
     </div>
   );
 }
-
