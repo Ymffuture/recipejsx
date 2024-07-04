@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { faSearch, faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Recipe from "../componets/recipe";
 
 export const Page3 = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -17,21 +18,21 @@ export const Page3 = () => {
   ];
 
   const recipes = [
-    {
-      name: "Chocolate Cake",
-      description: "Decadent chocolate cake with rich chocolate frosting.",
-      image: "url-to-chocolate-cake-image",
-    },
-    {
-      name: "Spaghetti Bolognese",
-      description: "Classic Italian pasta dish with meaty tomato sauce.",
-      image: "url-to-spaghetti-bolognese-image",
-    },
-    {
-      name: "Chicken Tikka Masala",
-      description: "Creamy and spicy Indian chicken dish with aromatic spices.",
-      image: "url-to-chicken-tikka-masala-image",
-    },
+    // {
+    //   name: "Chocolate Cake",
+    //   description: "Decadent chocolate cake with rich chocolate frosting.",
+    //   image: "url-to-chocolate-cake-image",
+    // },
+    // {
+    //   name: "Spaghetti Bolognese",
+    //   description: "Classic Italian pasta dish with meaty tomato sauce.",
+    //   image: "url-to-spaghetti-bolognese-image",
+    // },
+    // {
+    //   name: "Chicken Tikka Masala",
+    //   description: "Creamy and spicy Indian chicken dish with aromatic spices.",
+    //   image: "url-to-chicken-tikka-masala-image",
+    // },
     {
       name: "Caesar Salad",
       description: "Crisp romaine lettuce with Caesar dressing and croutons.",
@@ -111,6 +112,7 @@ export const Page3 = () => {
           ))}
         </div>
       </div>
+      <Recipe/>
     </div>
   );
 };

@@ -71,18 +71,19 @@
 
 @media screen and (max-width: 1280px) {
   .container {
-    padding-inline: 10vw;
+    padding-inline: 28vw;
+    zoom: 75%;
     
   }
 }
 @media screen and (max-width: 1050px) {
   .container {
-    padding-inline: 18vw;
+    padding-inline: 28vw;
   }
 }
 @media screen and (max-width: 480px) {
   .container {
-    padding-inline: 18vw !important;
+    padding-inline: 28vw !important;
     zoom: 80%;
   }body{
     zoom: 70%;

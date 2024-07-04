@@ -242,6 +242,8 @@ body {
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  display: grid;
+    grid-template-columns: repeat(6, 4fr);
 }
 
 .recipe-card {

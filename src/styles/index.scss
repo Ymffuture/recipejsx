@@ -1,0 +1,102 @@
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.h1{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 22px;
+}
+.searchBar input{
+    width: 400px;
+    padding: 9px;
+    font-size: 22px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+.searchBar button{
+    width: 90px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+.work-section-bottom{
+    width: 150em;
+   
+
+    img{
+        width: 300px;
+        border-radius: 8px;
+        
+    }
+
+    .img1{
+        width: 200px;
+    }
+    .img2{
+        width: 300px;
+    
+    }
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin-top: .5rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+
+}
+.work-section-info{
+    width: 400px;
+    min-height: 450px;
+    background-color: black;
+    padding: 1rem 2rem;
+border-radius: 8px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 1rem;
+   color: white;
+   margin: 1rem 2rem;
+   margin-bottom: .2rem;
+
+   box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 150px #fff;
+   border: 3px solid transparent;
+  background-clip: padding-box;
+
+
+}
+
+.work-section-info h2 {
+    margin: 1rem 0rem;
+}
+.work-section-info p{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.about-buttons-container{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.secondary-button{
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+}
